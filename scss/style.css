@@ -1,0 +1,630 @@
+/* -------------------------------------------------------
+                     import scss
+-------------------------------------------------------- */
+.theme, .navbar #custom_nav ul li .active, .navbar #custom_nav ul li a:hover,
+.navbar #custom_nav ul li a:focus,
+.navbar #custom_nav ul li a:active, .newnavigation #custom_nav ul li .active, .newnavigation #custom_nav ul li a:hover,
+.newnavigation #custom_nav ul li a:focus,
+.newnavigation #custom_nav ul li a:active, #banner .intro-text h3, #Services .service-content .single-service i {
+  color: #18BA60; }
+
+.white, .navbar .logo .navbar-brand, .navbar .navbar-toggler, .navbar #custom_nav ul li a, #banner .intro-text, #hero .skills .item .skills-progress h6, #hero .skills .item .skills-progress span:after, #hero .hero-button a:hover, #Services .service-content .single-service:hover i, #work .button-group .is-checked, #work .button-group button:hover,
+#work .button-group button:active,
+#work .button-group button:focus,
+#work .button-group button .is-checked, #work .single-work .snglwork_overlay h5, #work .single-work .snglwork_overlay a i, #blog .blog-slider .blog-item .post-content .button:hover, #contact .form-area .submit input:hover, .scroll-top {
+  color: #ffffff; }
+
+.grey1, .newnavigation .logo .navbar-brand, .newnavigation .navbar-toggler, .newnavigation #custom_nav ul li a, #hero .about-text h3, #hero .hero-button a, #Services .section-title h3, #work .section-title h3, #work .button-group button, #counterup .counter-area .single-counter h3, #counterup .counter-area .single-counter p, #testimonial .section-title h3, #testimonial .feedback-area .feedback-slider .single-feedback h6, #blog .section-title h3, #blog .blog-slider .blog-item .post-content h6, #blog .blog-slider .blog-item .post-content .button, #contact .section-title h3, #contact .form-area .submit input, footer .footer-content .footer-icon a i, footer .footer-content p {
+  color: #2c3e50; }
+
+.grey2, #hero .about-text p, #Services .service-content .single-service h5, #Services .service-content .single-service p, #testimonial .feedback-area .feedback-slider .single-feedback span, #blog .blog-slider .blog-item .post-content .tag {
+  color: #7e7e7e; }
+
+.grey3, #hero .about-text .small-title, #testimonial .feedback-area .feedback-slider .single-feedback p, #blog .blog-slider .blog-item .post-content p {
+  color: #999999; }
+
+.grey4 {
+  color: #888888; }
+
+.grey5 {
+  color: #f7f7f7; }
+
+.themebg, #hero .skills .item .skills-progress span, #hero .hero-button a:hover, #Services .service-content .single-service:hover i, #work .button-group .is-checked, #work .button-group button:hover,
+#work .button-group button:active,
+#work .button-group button:focus,
+#work .button-group button .is-checked, #work .single-work .snglwork_overlay a i:hover, #blog .blog-slider .blog-item .post-content .button:hover, #contact .form-area .submit input:hover, .scroll-top {
+  background-color: #18BA60; }
+
+.grey5bg, #hero .skills .item .skills-progress, #Services, #counterup, #blog, #contact .form-area input, #contact .form-area .form-group textarea, footer {
+  background-color: #f7f7f7; }
+
+.whitebg, .newnavigation, #work .button-group button, #blog .blog-slider .blog-item .post-content {
+  background-color: #ffffff; }
+
+.grey5bg, #hero .skills .item .skills-progress, #Services, #counterup, #blog, #contact .form-area input, #contact .form-area .form-group textarea, footer {
+  background-color: #f7f7f7; }
+
+.grey6bg, #Services .service-content .single-service i {
+  background-color: #f4f4f4; }
+
+.josefin, p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, .navbar .logo .navbar-brand, #banner .intro-text, #banner .intro-text h1, #banner .intro-text h4, #counterup .counter-area .single-counter p {
+  font-family: 'Josefin Sans', sans-serif; }
+
+.muli, p, .navbar #custom_nav ul li, .newnavigation #custom_nav ul li, #Services .service-content .single-service p {
+  font-family: 'Muli', sans-serif; }
+
+h1 {
+  font-size: 60px; }
+
+h2 {
+  font-size: 35px; }
+
+h3 {
+  font-size: 30px; }
+
+h4 {
+  font-size: 25px; }
+
+h5 {
+  font-size: 20px; }
+
+h6 {
+  font-size: 16px; }
+
+.tr, .navbar #custom_nav ul li a, .newnavigation, .newnavigation .logo .navbar-brand, .newnavigation #custom_nav ul li a, #banner .intro-text, #hero .hero-button a, #Services .service-content .single-service i, #work .button-group button, #work .single-work, #work .single-work .snglwork_overlay, #work .single-work .snglwork_overlay h5, #work .single-work .snglwork_overlay a i, #blog .blog-slider .blog-item .post-content .button, #contact .form-area .submit input {
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s; }
+
+.br {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
+/* -------------------------------------------------------
+                     comon css start
+-------------------------------------------------------- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  outline: none !important; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+span {
+  display: inline-block; }
+
+a,
+a:hover,
+a:focus {
+  color: inherit; }
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+/* ----- Clear-fix & Buttons ----*/
+.clear-fix {
+  clear: both !important; }
+
+/* -------------------------------------------------------
+                     common css end
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                     Navigatiion css start
+-------------------------------------------------------- */
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 0;
+  z-index: 999; }
+  .navbar .logo .navbar-brand {
+    letter-spacing: 4px;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding-top: 15px;
+    float: left;
+    text-decoration: none; }
+  .navbar .navbar-toggler {
+    border: none; }
+  .navbar #custom_nav ul li {
+    font-size: 14px;
+    margin: 25px 20px 0;
+    background: none;
+    cursor: pointer; }
+    .navbar #custom_nav ul li a {
+      margin: 0 !important;
+      padding: 0 !important; }
+
+.newnavigation {
+  box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.05);
+  min-height: 60px;
+  line-height: 60px;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  .newnavigation .logo .navbar-brand {
+    padding-top: 5px; }
+  .newnavigation .navbar-toggler {
+    border: none; }
+  .newnavigation #custom_nav ul li {
+    margin: 10px 20px 10px;
+    font-size: 14px;
+    background: none;
+    cursor: pointer; }
+    .newnavigation #custom_nav ul li a {
+      margin: 0 !important;
+      padding: 0 !important; }
+
+/* -------------------------------------------------------
+                     Navigatiion css End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                     header css start
+-------------------------------------------------------- */
+#banner {
+  background: url(../images/banner.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  position: relative;
+  z-index: 99; }
+  #banner .v-middle {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #banner .intro-text {
+    text-transform: capitalize; }
+    #banner .intro-text h3 {
+      font-weight: 300; }
+    #banner .intro-text h1 {
+      font-weight: 300;
+      padding-top: 30px;
+      margin-bottom: 40px; }
+    #banner .intro-text h4 {
+      font-weight: 300; }
+      #banner .intro-text h4 b {
+        font-weight: 300; }
+
+#banner:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1; }
+
+/* -------------------------------------------------------
+                     header css end
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                     hero css start
+-------------------------------------------------------- */
+#hero {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #hero .hero-photo img {
+    width: 100%; }
+  #hero .about-text h3 {
+    font-weight: 300;
+    text-transform: capitalize; }
+  #hero .about-text .small-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 5px;
+    margin-bottom: 10px; }
+  #hero .about-text p {
+    line-height: 27px; }
+  #hero .skills {
+    margin-top: 30px; }
+    #hero .skills .item {
+      margin-bottom: 30px; }
+      #hero .skills .item .skills-progress {
+        width: 100%;
+        padding: 5px 10px;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+        position: relative; }
+        #hero .skills .item .skills-progress h6 {
+          font-size: 13px;
+          position: relative;
+          z-index: 2; }
+        #hero .skills .item .skills-progress span {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 10%;
+          border-radius: 5px;
+          -webkit-transition: all 1s;
+          transition: all 1s; }
+        #hero .skills .item .skills-progress span:after {
+          content: attr(data-value);
+          position: absolute;
+          top: 6px;
+          right: 10px;
+          font-size: 11px; }
+  #hero .hero-button {
+    text-align: center; }
+    #hero .hero-button a {
+      box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: all ease-in-out 300ms;
+      text-align: center;
+      font-weight: 300;
+      font-size: 15px;
+      border: 1px solid #18BA60;
+      height: 35px;
+      width: 150px;
+      display: inline-block;
+      line-height: 35px;
+      text-transform: uppercase;
+      margin: 50px 10px 0 10px;
+      z-index: 2;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px; }
+    #hero .hero-button a:hover {
+      box-shadow: 0px 37px 20px -15px rgba(0, 0, 0, 0.2);
+      transform: translate(0px, -10px); }
+
+/* -------------------------------------------------------
+                     hero css end
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                     services css start
+-------------------------------------------------------- */
+#Services {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #Services .section-title h3 {
+    text-transform: capitalize;
+    font-weight: 300;
+    text-transform: capitalize; }
+  #Services .service-content {
+    margin-top: 100px; }
+    #Services .service-content .single-service {
+      border-radius: 5px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding: 50px 20px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+      #Services .service-content .single-service i {
+        margin-bottom: 40px;
+        padding: 15px;
+        border-radius: 50%;
+        font-size: 25px; }
+      #Services .service-content .single-service h5 {
+        margin-bottom: 20px;
+        text-transform: capitalize; }
+    #Services .service-content .single-service:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+
+/* -------------------------------------------------------
+                     services css end
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                     Works css Start
+-------------------------------------------------------- */
+#work {
+  padding: 100px; }
+  #work .section-title h3 {
+    text-transform: capitalize;
+    font-weight: 300;
+    text-transform: capitalize; }
+  #work .button-group {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px; }
+    #work .button-group button {
+      box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+      transition: all ease-in-out 300ms;
+      text-align: center;
+      font-weight: 300;
+      font-size: 15px;
+      border: 1px solid #18BA60;
+      height: 35px;
+      width: 150px;
+      display: inline-block;
+      line-height: 35px;
+      text-transform: uppercase;
+      margin: 50px 10px 0 10px;
+      z-index: 2;
+      border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -o-border-radius: 5px; }
+    #work .button-group .is-checked {
+      box-shadow: 0px 37px 20px -15px rgba(0, 0, 0, 0.2);
+      transform: translate(0px, -10px); }
+    #work .button-group button:hover,
+    #work .button-group button:active,
+    #work .button-group button:focus,
+    #work .button-group button .is-checked {
+      box-shadow: 0px 37px 20px -15px rgba(0, 0, 0, 0.2);
+      transform: translate(0px, -10px); }
+  #work .single-work {
+    text-align: center;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 15px; }
+    #work .single-work img {
+      width: 100%; }
+    #work .single-work .snglwork_overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      text-transform: capitalize;
+      margin: 0 auto;
+      overflow: hidden; }
+      #work .single-work .snglwork_overlay .overlay_inner {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+      #work .single-work .snglwork_overlay h5 {
+        transform: translateY(-80px);
+        opacity: 0;
+        margin-bottom: 15px; }
+      #work .single-work .snglwork_overlay a i {
+        text-align: center;
+        font-size: 10px;
+        transform: translateY(80px);
+        opacity: 0;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.5); }
+  #work .single-work:hover .snglwork_overlay .overlay_inner h5,
+  #work .single-work:hover .snglwork_overlay .overlay_inner i {
+    transform: translateY(0px); }
+  #work .single-work:hover .snglwork_overlay .overlay_inner h5,
+  #work .single-work:hover .snglwork_overlay .overlay_inner i {
+    opacity: 1; }
+  #work .single-work:hover .snglwork_overlay {
+    background: rgba(0, 0, 0, 0.4); }
+
+/* -------------------------------------------------------
+                     Works css End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                     CounterUp css Start
+-------------------------------------------------------- */
+#counterup {
+  padding: 40px; }
+  #counterup .counter-area {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+    #counterup .counter-area .single-counter {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      #counterup .counter-area .single-counter .icon i {
+        font-size: 20px; }
+      #counterup .counter-area .single-counter h3 {
+        font-weight: 600;
+        margin-bottom: 15px;
+        margin-top: 15px; }
+      #counterup .counter-area .single-counter p {
+        font-size: 14px;
+        text-transform: capitalize; }
+
+/* -------------------------------------------------------
+                     CounterUp css End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                     Testimonial css Start
+-------------------------------------------------------- */
+#testimonial {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #testimonial .section-title h3 {
+    text-transform: capitalize;
+    font-weight: 300;
+    text-transform: capitalize; }
+  #testimonial .feedback-area {
+    margin-top: 100px; }
+    #testimonial .feedback-area .feedback-slider .single-feedback img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 50px; }
+    #testimonial .feedback-area .feedback-slider .single-feedback p {
+      margin-top: 30px;
+      margin-bottom: 20px;
+      word-spacing: 2px;
+      font-style: italic !important; }
+    #testimonial .feedback-area .feedback-slider .single-feedback h6 {
+      margin-bottom: 5px; }
+
+/* -------------------------------------------------------
+                     Testimonial css End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                     Blog css Start
+-------------------------------------------------------- */
+#blog {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #blog .section-title h3 {
+    text-transform: capitalize;
+    font-weight: 300;
+    text-transform: capitalize; }
+  #blog .blog-slider {
+    margin-top: 100px; }
+    #blog .blog-slider .blog-item {
+      border: 1px solid #DCDCDC;
+      border-radius: 5px; }
+      #blog .blog-slider .blog-item .post-photo {
+        position: relative;
+        overflow: hidden; }
+        #blog .blog-slider .blog-item .post-photo img {
+          -webkit-transition: all .5s;
+          transition: all .5s; }
+      #blog .blog-slider .blog-item .post-photo:hover img {
+        -webkit-transform: scale(1.2, 1.2);
+        transform: scale(1.2, 1.2); }
+      #blog .blog-slider .blog-item .post-content {
+        padding: 30px 15px; }
+        #blog .blog-slider .blog-item .post-content .tag {
+          text-align: left;
+          margin-bottom: 15px;
+          font-weight: 700; }
+        #blog .blog-slider .blog-item .post-content h6 {
+          font-size: 18px;
+          margin-bottom: 15px; }
+        #blog .blog-slider .blog-item .post-content p {
+          font-size: 16px; }
+        #blog .blog-slider .blog-item .post-content .button {
+          box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.2);
+          cursor: pointer;
+          transition: all ease-in-out 300ms;
+          text-align: center;
+          font-weight: 300;
+          font-size: 12px;
+          height: 25px;
+          width: 90px;
+          display: inline-block;
+          line-height: 25px;
+          text-transform: capitalize;
+          margin: 50px 10px 0 10px;
+          z-index: 2;
+          border: 1px solid #18BA60;
+          border-radius: 5px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          -o-border-radius: 5px; }
+        #blog .blog-slider .blog-item .post-content .button:hover {
+          box-shadow: 0px 37px 20px -7px rgba(0, 0, 0, 0.2);
+          transform: translate(0px, -7px); }
+
+/* -------------------------------------------------------
+                     Blog css End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                     Contact css Start
+-------------------------------------------------------- */
+#contact {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #contact .section-title h3 {
+    text-transform: capitalize;
+    font-weight: 300;
+    text-transform: capitalize; }
+  #contact .form-area {
+    margin-top: 100px; }
+    #contact .form-area input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 30px;
+      border: 0; }
+    #contact .form-area .form-group textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 30px;
+      border: 0;
+      height: 160px;
+      max-width: 100%;
+      max-height: 160px; }
+    #contact .form-area .submit {
+      text-align: center; }
+      #contact .form-area .submit input {
+        box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.2);
+        cursor: pointer;
+        transition: all ease-in-out 300ms;
+        text-align: center;
+        font-weight: 300;
+        font-size: 15px;
+        border: 1px solid #18BA60;
+        height: 35px;
+        line-height: 0px;
+        width: 150px;
+        display: inline-block;
+        text-transform: uppercase;
+        z-index: 2;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px; }
+      #contact .form-area .submit input:hover {
+        box-shadow: 0px 37px 20px -15px rgba(0, 0, 0, 0.2);
+        transform: translate(0px, -10px); }
+
+/* -------------------------------------------------------
+                     Contact css End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                     footer css start
+-------------------------------------------------------- */
+footer {
+  padding: 50px 0;
+  text-align: center; }
+  footer .footer-content .footer-icon a i {
+    font-size: 12px; }
+  footer .footer-content p {
+    font-size: 12px; }
+
+/* -------------------------------------------------------
+                     footer css End
+-------------------------------------------------------- */
+/* -------------------------------------------------------
+                   scroll top button css Start
+-------------------------------------------------------- */
+.scroll-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 2px; }
+
+/* -------------------------------------------------------
+                     scroll top button css End
+-------------------------------------------------------- */
+
+/*# sourceMappingURL=style.css.map */

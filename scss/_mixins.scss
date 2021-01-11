@@ -1,0 +1,20 @@
+@mixin br($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	-o-border-radius: $radius;
+}
+@mixin tr($time) {
+	transition: all linear $time;
+	-webkit-transition: all linear $time;
+	-moz-transition: all linear $time;
+	-ms-transition: all linear $time;
+	-o-transition: all linear $time;
+}
+.tr {
+	@include tr(0.3s);
+}
+.br {
+	@include br(50%);
+}

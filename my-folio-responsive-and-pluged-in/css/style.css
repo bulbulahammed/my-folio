@@ -1,0 +1,388 @@
+/*==========common css start ==========*/
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+ol,
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.clr {
+    clear: both;
+}
+
+/*==========common css end ==========*/
+
+
+/*==========nav css start ==========*/
+
+.menu-background {
+    background-color: #02918c;
+}
+.newnavigation {
+    background: rgba(2, 145, 140, .8);
+}
+.menubutton {
+    color: #fff;
+}
+#custom_nav ul li a {
+    color: #fff;
+    padding: 0px 25px;
+    font-size: 12px;
+    font-weight: 800;
+    transition: .5s;
+    -webkit- transition: .5s;
+    -moz- transition: .5s;
+    -o- transition: .5s;
+}
+#custom_nav ul li a:hover {
+    color: #cfc91d;
+}
+
+/*==========nav css end ==========*/
+
+
+/*==========banner css start ==========*/
+
+#banner {
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 999;
+}
+#banner:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: -1;
+}
+.custom_carousel {
+    text-align: center;
+    color: #fff;
+    padding: 227px 0px;
+}
+.carousel-text h4 {
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+}
+.carousel-text h2 {
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 20px;
+    color: #fff;
+}
+.carousel-text h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.carousel_bracket {
+    padding: 50px 0px;
+}
+.carousel_button .btn {
+    width: 196px;
+    height: 47px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+    border-radius: 0%;
+    background: #cfc91d;
+    transition: .5s;
+    -webkit- transition: .5s;
+    -moz- transition: .5s;
+    -o- transition: .5s;
+}
+.carousel_button .btn:hover {
+    color: #fff;
+    background: #02918c;
+}
+
+/*==========baner css end ==========*/
+
+
+/*==========about css start ==========*/
+
+#about {}
+.about_top {}
+.section_heading {
+    padding: 100px 0;
+}
+.section_heading h2 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+.section_heading img {
+    padding: 30px 0px;
+}
+.section_heading p {
+    font-size: 16px;
+    color: #7e8287;
+}
+.section_heading p span {
+    font-size: 23px;
+    font-weight: 800;
+}
+.about_bottom {}
+.about_bottom_inner {
+    border-right: 1px solid #d9dbdb;
+    text-align: center;
+    margin: 0px 20px;
+    padding: 0px 20px;
+}
+.about_bottom_inner_last {
+    border: none;
+}
+.about_bottom_inner i {
+    color: #02918c;
+    font-size: 40px;
+}
+.about_bottom_inner h2 {
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 800;
+    color: #7e8287;
+}
+.about_bottom_inner p {
+    font-size: 11px;
+}
+
+/*==========about css end ==========*
+ /*==========service css start ==========*/
+
+#trouble {
+    background: url(../images/service.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+#trouble:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .5);
+    z-index: -1;
+}
+.service_top {
+    padding-bottom: 60px;
+}
+.service_bottom_inner {}
+.service_bottom_inner i {
+    color: #02918c;
+    font-size: 40px;
+}
+.service_bottom_inner h2 {
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 800;
+    color: #7e8287;
+}
+.service_bottom_inner p {
+    font-size: 11px;
+    color: #7e8287;
+    padding-right: 80px;
+}
+
+/*==========service css end ==========*/
+
+
+/*==========service css start ==========*/
+
+#service {
+    background: url(../images/service.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+#service:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .5);
+    z-index: -1;
+}
+.service_top {
+    padding-bottom: 60px;
+}
+.service_bottom_inner {}
+.service_bottom_inner i {
+    color: #02918c;
+    font-size: 40px;
+}
+.service_bottom_inner h2 {
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 800;
+    color: #7e8287;
+}
+.service_bottom_inner p {
+    font-size: 11px;
+    color: #7e8287;
+    padding-right: 80px;
+}
+
+/*==========service css end ==========*/
+
+
+/*==========work css start ==========*/
+
+#work {}
+.work_top {}
+.work_item {
+    position: relative;
+}
+.work_item .work_overlay {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(35, 153, 146, .7);
+    color: #fff;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 1s;
+    -webkit- transition: 1s;
+    -moz- transition: 1s;
+    -o- transition: 1s;
+}
+.work_item:hover .work_overlay {
+    opacity: 1;
+    visibility: visible;
+}
+.work_item .work_overlay h2 {
+    padding-top: 60px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+}
+.work_item .work_overlay p {
+    font-size: 11px;
+    color: #fff;
+    padding: 0px 73px;
+    line-height: 25px;
+}
+
+/*==========work css end ==========*/
+
+
+/*==========contact css start ==========*/
+
+#contact {}
+.contact_top {
+    padding-bottom: 70px;
+}
+.contact_form {
+    padding-bottom: 70px;
+    padding-top: 70px;
+    background: #0b0b0b;
+}
+.form_item {
+    color: #898989;
+}
+.form_field {
+    background: none;
+    height: 36px;
+    width: 540px;
+    color: #7e8287;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid transparent;
+    border-bottom-color: #898989;
+}
+.form_fieldmail {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.message {
+    background: none;
+    width: 817px;
+    margin: 0 auto;
+    height: 90px;
+    resize: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #898989;
+    border-top: 1px solid #898989;
+    margin-top: 18px;
+    font-size: 16px;
+    margin-bottom: 67px;
+    color: #898989;
+}
+.form_item textarea {
+    display: block;
+}
+.form_item .btn {
+    width: 196px;
+    height: 47px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+    border-radius: 0%;
+    background: #cfc91d;
+    transition: .5s;
+    -webkit- transition: .5s;
+    -moz- transition: .5s;
+    -o- transition: .5s;
+}
+.form_item .btn:hover {
+    color: #fff;
+    background: #02918c;
+}
+
+/*==========contact css end ==========*/
+
+
+/*==========footer css end ==========*/
+
+footer {
+    background-color: #000000;
+}
+footer p {
+    padding-top: 25px;
+    color: #7e8287;
+}
+.scroll_top_button {
+    background: #02918c;
+    width: 25px;
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    border-radius: 3px;
+    z-index: 999;
+}
+.scroll_top_button a i {
+    font-size: 30px;
+    color: #fff;
+    padding-top: 18px;
+}
+
+/*==========footer css end ==========*/

@@ -1,0 +1,44 @@
+$theme:#18BA60;
+$white:#ffffff;
+$grey1:#2c3e50;
+$grey2:#7e7e7e;
+$grey3:#999999;
+$grey4:#888888;
+$grey5:#f7f7f7;
+$grey6:#f4f4f4;
+.theme {
+	color: $theme;
+}
+.white {
+	color: $white;
+}
+.grey1 {
+	color: $grey1;
+}
+.grey2 {
+	color: $grey2;
+}
+.grey3 {
+	color: $grey3;
+}
+.grey4 {
+	color: $grey4;
+}
+.grey5 {
+	color: $grey5;
+}
+.themebg {
+	background-color: $theme;
+}
+.grey5bg {
+	background-color: $grey5;
+}
+.whitebg {
+	background-color: $white;
+}
+.grey5bg {
+	background-color: $grey5;
+}
+.grey6bg {
+	background-color: $grey6;
+}

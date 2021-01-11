@@ -1,0 +1,206 @@
+/*-----------------------------------------------------------------------------------
+
+Theme Name:Emily
+Description: Creative One Page Portfolio
+Author: themexposer
+Author URI:https://themeforest.net/user/themexposer
+Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+
+	== Table Of Content
+
+		01 - Global
+		02 - Navigition
+		03 - Header
+		04 - Hero
+		05 - Services
+		06 - Portfolio
+		07 - CounterUp
+		08 - Testimonial
+		09 - Blog
+		10 - Contact
+		
+---------------------------------------------------------------- */
+
+/* -------------------------------------------------------
+                    Global
+-------------------------------------------------------- */
+
+* {
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style: none !important;
+  outline: none !important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+span {
+  display: inline-block;
+}
+
+a,
+a:hover,
+a:focus {
+  color: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----- Clear-fix & Buttons ----*/
+
+.clear-fix {
+  clear: both !important;
+}
+
+/* -------------------------------------------------------
+                   Navigation CSS Start
+-------------------------------------------------------- */
+.menu-bg {
+  background: #009999;
+}
+
+#custom_nav ul li a {
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+/* -------------------------------------------------------
+                   Navigation  CSS End
+-------------------------------------------------------- */
+
+/* -------------------------------------------------------
+                   Banner CSS Start
+-------------------------------------------------------- */
+#banner {
+  position: relative;
+  height: 100vh;
+  background: url(../images/banner.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 1;
+}
+#banner:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.v-middle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-text {
+  color: #fff;
+}
+.banner-text h5 {
+  font-size: 30px;
+}
+.banner-text h1 {
+  font-size: 68px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  padding-top: 28px;
+  padding-bottom: 20px;
+}
+.banner-text h4 {
+  font-size: 18px;
+}
+.banner-bracket {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.banner-button {
+  width: 196px;
+  height: 47px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 800;
+  border: none;
+  background: #cccc33;
+  transition: 0.5s;
+}
+.banner-button:hover {
+  color: #fff;
+  background: #009999;
+}
+/* -------------------------------------------------------
+                   Banner CSS End
+-------------------------------------------------------- */
+
+/* -------------------------------------------------------
+                   About CSS Start
+-------------------------------------------------------- */
+.section-padding {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+#about {
+}
+.about {
+}
+.section_heading h2 {
+  font-size: 46px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #009999;
+}
+.section_heading p {
+  font-size: 16px;
+  color: #669999;
+}
+
+/* -------------------------------------------------------
+                  Abour CSS End
+-------------------------------------------------------- */
+
+/* -------------------------------------------------------
+                   scroll top button css Start
+-------------------------------------------------------- */
+
+.scroll-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+/* -------------------------------------------------------
+                     scroll top button css End
+-------------------------------------------------------- */

@@ -1,0 +1,75 @@
+/*Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 991px) {
+    #custom_nav ul li a {
+        padding: 10px 25px;
+        font-weight: 600;
+    }
+    .about_bottom-mid {
+        border: none;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {
+    .custom_carousel {
+        padding: 100px 0px;
+    }
+    .carousel-text h4 {
+        font-weight: 400;
+        font-size: 20px;
+        color: #fff;
+    }
+    .carousel-text h2 {
+        font-size: 58px;
+        font-weight: 700;
+        letter-spacing: 20px;
+        color: #fff;
+    }
+    .carousel-text h5 {
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+    }
+    .carousel_bracket {
+        padding: 20px 0px;
+    }
+    .carousel_button .btn {
+        width: 120px;
+        height: 35px;
+        font-size: 11px;
+        font-weight: 700;
+    }
+    .section_heading {
+        padding: 50px 0;
+    }
+    .section_heading h2 {
+        font-size: 26px;
+        font-weight: 800;
+        color: #02918c;
+    }
+    .section_heading img {
+        padding: 15px 0px;
+    }
+    .section_heading p {
+        font-size: 11px;
+        color: #7e8287;
+    }
+    .section_heading p span {
+        font-size: 14px;
+        font-weight: 800;
+    }
+    .about_bottom_inner {
+        border: none;
+    }
+    #trouble {
+        margin-top: 50px;
+    }
+    .form_item .btn {
+        width: 120px;
+        height: 35px;
+        font-size: 11px;
+        font-weight: 700;
+    }
+}
